@@ -32,10 +32,6 @@ luci-app-ffwizard-berlin
 luci-mod-freifunk
 luci-app-olsr
 luci-app-olsr-services
-luci-app-owm
-luci-app-owm-ant
-luci-app-owm-cmd
-luci-app-owm-gui
 
 # OLSR
 olsrd
@@ -52,3 +48,11 @@ kmod-ipv6
 
 # VPN
 openvpn-polarssl
+
+# libremap
+libremap-agent
+luci-lib-libremap-contact
+luci-lib-libremap-freifunk
+luci-lib-libremap-olsr
+luci-lib-libremap-system
+luci-lib-libremap-wireless

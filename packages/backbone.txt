@@ -34,10 +34,6 @@ px5g
 luci-mod-freifunk
 luci-app-olsr
 luci-app-olsr-services
-luci-app-owm
-luci-app-owm-ant
-luci-app-owm-cmd
-luci-app-owm-gui
 
 # OLSR
 olsrd
@@ -69,3 +65,11 @@ collectd-mod-rrdtool
 collectd-mod-ping
 collectd-mod-uptime
 collectd-mod-memory
+
+# libremap
+libremap-agent
+luci-lib-libremap-contact
+luci-lib-libremap-freifunk
+luci-lib-libremap-olsr
+luci-lib-libremap-system
+luci-lib-libremap-wireless
